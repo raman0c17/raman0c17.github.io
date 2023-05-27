@@ -1,0 +1,71 @@
+/* Add your custom CSS styles here */
+
+.header {
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  .header .navbar-brand {
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  .section {
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .section h2 {
+    margin-bottom: 40px;
+  }
+  
+  .timeline {
+    position: relative;
+    margin-top: 40px;
+  }
+  
+  .timeline:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background-color: #333;
+  }
+  
+  .timeline-item {
+    margin-bottom: 60px;
+  }
+  
+  .timeline-item h4 {
+    margin-bottom: 10px;
+  }
+  
+  .timeline-item h5 {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .skills-list li {
+    margin-right: 20px;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
